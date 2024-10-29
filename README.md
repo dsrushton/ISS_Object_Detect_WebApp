@@ -5,7 +5,7 @@ Full-stack HTML-Docker-Python ISS WebApp
 Place .pth model into "Model" directory:
 https://drive.google.com/file/d/1tRq_BUI9jIKqKexg-BI2Lh1A_6h6D39E/view?usp=sharing
 
-See https://github.com/dsrushton/ISS_Object_Detect/blob/main/README.md for program specs and details.
+For program specs and details see: https://github.com/dsrushton/ISS_Object_Detect/blob/main/README.md
 
 Use: 
 build -t iss-detection .   
