@@ -1,7 +1,11 @@
 # ISS_Object_Detect_WebApp
-Full-stack Dockerized ISS WebApp
 
-<<WebApp Version>>
-Place .pth Model in "Model" Directory and start streaming!
+Full-stack HTML-Docker-Python ISS WebApp
 
-See https://github.com/dsrushton/ISS_Object_Detect/blob/main/README.md for more details
+Place .pth model from https://drive.google.com/file/d/1tRq_BUI9jIKqKexg-BI2Lh1A_6h6D39E/view?usp=sharing into "Model" directory.
+
+See https://github.com/dsrushton/ISS_Object_Detect/blob/main/README.md for program specs and details.
+
+Use: 
+build -t iss-detection .   
+docker run --gpus all -p 5000:5000 -v "${PWD}/model:/app/model" iss-detection
